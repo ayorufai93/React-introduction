@@ -1,0 +1,38 @@
+QUESTION1 
+ARROW FUNCTIONS
+An arrow function  is an ES6+ way of simplifying function creation using this syntax =>.
+const alert = ()=> {
+    console.log("Welcome to cowrywise")
+};
+alert();
+
+DESTRUCTURING
+Destructuring provides a concise and readable way to extract values from arrays or objects into variables in a single statement,instead of using index numbers or .notation.
+const student= {
+    name:"John"
+    age:20;
+    grade:90
+}
+const (name,age,grade )= student;
+console.log(name,age,grade);
+
+SPREAD OPERATORS
+Spread operators are used to spread or copy values from arrays or objects and still add any element of your choice.
+
+TERNARY OPERATOR EXAMPLE
+let a =15;
+
+if (a >= 18) {
+    console.log("you are an adult")
+}
+else if(a >=0 || a <=15){
+    console.log("you are a teenager")
+}
+else{
+    console.log("you are a child")
+}
+
+MAP FUNCTION
+It is used to transform each item in an array and return a new array without changing the original one.
+: const names = ['Alice', 'Bob']; const greetings = names.map(name => Hello ${name});
+console.log(greetings); which will become Hello Alice, Bob.
